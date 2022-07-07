@@ -7,6 +7,10 @@ Realiza los ejercicios de acuerdo a las indicaciones
 
 Escribir un programa que convierta un valor dado en grados Fahrenheit a grados
 Celsius.
+gradosfahrenheit = int(input('ingrese los grados fahrenheit  '))
+gradoscelsius = (gradosfahrenheit-32)/1.8
+print('equivale a grados celsius ', gradoscelsius)
+
 
 2.2 Ejercicio 2 (1.5 puntos)
 
