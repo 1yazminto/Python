@@ -16,6 +16,14 @@ print('equivale a grados celsius ', gradoscelsius)
 
 Dados dos números, mostrar la suma, resta, división y multiplicación de
 ambos.
+numero1 = int(input('introduce el primer numero '))
+numero2 = int(input('introduce el segundo numero '))
+print('los numeros proporcionados son:', numero1, 'y',numero2)
+suma=numero1+numero2
+resta=numero1-numero2
+division=numero1/numero2
+multiplicacion=numero1*numero2
+print('la suma de los numeros es', suma,'\nla resta',resta,'\nla division es ', division,'\nla multiplicacion',multiplicacion)
 
 
 2.3 Ejercicio 3 (1.5 puntos)
