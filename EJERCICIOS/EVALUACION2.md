@@ -30,5 +30,12 @@ print('la suma de los numeros es', suma,'\nla resta',resta,'\nla division es ', 
 
 Calcular el perímetro y área de un rectángulo dada su base y su altura.
 Respuesta:
+base=int(input('ingrese los centimetros de la base '))
+altura=int(input('ingres los centrimetos de la altura '))
+print('la base es ', base, 'y altura es ',altura)
+area=base*altura
+perimetro=base*2+altura*2
+print('el perimetro es',perimetro, '\nel area',area)
+
 
 
