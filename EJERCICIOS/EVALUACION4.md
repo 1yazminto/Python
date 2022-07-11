@@ -5,6 +5,12 @@ Realizar un programa que inicialice una lista con 10 valores aleatorios (del 1 a
 y posteriormente muestre en pantalla cada elemento de la lista junto con su
 cuadrado y su cubo.
 Respuesta:
+import random 
+lista_numeros = [] 
+for indice in range(1,11):
+lista_numeros.append(random.randint(1,10))
+for numero in lista_numeros:
+ print(numero," ",numero ** 2," ",numero ** 3)
 
 ### 4.2 Ejercicio 2 (1.2 puntos)
 Crea una lista e inicializarla con 5 cadenas de caracteres leídas por teclado. Copia
