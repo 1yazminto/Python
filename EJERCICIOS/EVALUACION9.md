@@ -19,7 +19,11 @@ Recuerda el import random
 
 ## Ejercicio 2 (2 puntos)
 Obtener el cuadrado de todos los elementos en la lista.
-
+ def doble(numero):
+        return numero*2
+ numeros = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10]
+ map(doble, numeros)
+list(map(doble, numeros)) 
 Lista: [1,2,3,4,5,6,7,8,9,10]
 
 ## Ejercicio 3 (2 puntos)
