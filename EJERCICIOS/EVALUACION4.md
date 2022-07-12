@@ -30,6 +30,22 @@ for cadena in lista2:
 Se quiere realizar un programa que lea por teclado las 5 notas obtenidas por un
 alumno (comprendidas entre 0 y 10). A continuación debe mostrar todas las notas,
 la nota media, la nota más alta que ha sacado y la menor.
+notas = []
+cont=1
+while cont<6:
+    nota = int(input("Introduce la nota %i:" % cont))
+    if nota>=0 and nota<=10:
+      cont=cont+1
+      notas.append(nota)
+    else:
+      print('formato incorrecto, ingresa de nuevo la calificación')
+
+print('Notas: ')
+print('---)
+print("Nota media: ",sum(notas)/len(notas))
+print("Nota max: ",max(notas))
+print("Nota min: ",min(notas))
+
 
 ### 4.4 Ejercicio 4 (1.2 puntos)
 Codifica un programa en python que nos permita guardar los nombres de los
