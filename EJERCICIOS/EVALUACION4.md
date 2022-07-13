@@ -38,7 +38,7 @@ while cont<6:
       cont=cont+1
       notas.append(nota)
     else:
-      print('formato incorrecto, ingresa de nuevo la calificación')
+      print('dato incorrecto, ingresa de nuevo la calificación')
 
 print('Notas: ')
 print('---)
@@ -66,6 +66,16 @@ Crea una tupla con los meses del año, pide números al usuario, si el número e
 entre 1 y la longitud máxima de la tupla, muestra el contenido de esa posición sino
 muestra un mensaje de error. El programa termina cuando el usuario introduce un
 cero.
-
+meses = ("Enero", "Febrero", "Marzo", "Abril", "Mayo", "Junio", "Julio", "Agosto", "Septiembre", "Octubre","Noviembre", "Diciembre")
+numero = int(input("coloca un numero: "))
+while (numero!=0):
+ if(numero>=1 and numero<=len(meses)):
+    print(meses[numero-1])
+    numero = int(input("coloca un numero: ")) 
+ else:
+    print("Inserta un número entre 1 y ",len(meses))
+    numero = int(input("coloca  un numero: "))
+else:
+ print('salir')
 
 # TRATA DE RESOLVER Y AVANZAR LO MÁS POSIBLE EN LOS EJERICICIOS, EL MARTES HABILITO "AYUDAS" EN CADA EJERCICIO
