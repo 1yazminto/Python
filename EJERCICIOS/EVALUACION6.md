@@ -55,6 +55,20 @@ Opción no válida, en caso de ingresar un número fuera de las opciones
 Se pide por teclado un número y nos imprime los números primos que hay previos a este número.
 
 Ejemplo: si ingresamos el 10 nos imprima del 1 a ese 10 cuales números son primos.
+numero=int(input('digite numero:  '))
+if numero >0:  
+  for i in range(2,numero):
+     contador = 2
+     numPrim=True
+     while numPrim and contador< i:
+        if i % contador == 0:
+            numPrim=False
+        else:
+          contador += 1
+     if numPrim:
+         print (i,'el numero es primo') 
+else:
+    print('el numero digitado esta incorrecto')
 
 
 ## Ejercicio 3 (1.5 puntos)
