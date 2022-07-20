@@ -17,7 +17,8 @@ funciona con unix, Solaris, Linux, dos, windows, OS/2, MAC.
 
 1.3 Ejercicio 1 (2 puntos)
 Escribir un programa que pregunte al usuario su nombre, y luego lo salude.
-
+```
 print('cual es tu nombre')
 nombre = input()
 print('me alegra conocerte', nombre)
+```
