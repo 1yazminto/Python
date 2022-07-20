@@ -36,3 +36,14 @@ tupla = (5,2,6,7,8,10,77,55,2,1,30,4,2,3)
 Obtener la suma de todos los elementos en la lista
 
 lista = [1,2,3,4]
+
+
+```
+from functools import reduce   
+
+def add(x, y):
+      return x + y
+
+lista = [1, 2, 3, 4]
+print(reduce(add, lista))
+```
