@@ -67,5 +67,6 @@ def ahorcado():# define una funcion con el nombre del juego
     else:
         print(f'¡Excelente! ¡Adivinaste la palabra {palabra}!')#o el jugador ha ganado
 
-
+if__name__=='__main__':#esta condicion falta, ya que no corre 
+    
     ahorcado()# se inicia el juego
