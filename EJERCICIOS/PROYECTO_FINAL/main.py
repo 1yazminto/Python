@@ -5,7 +5,7 @@ Basado en el proyecto de: Kylie Ying (@kylieyying).
 import random # importa una serie de numeros aleatorios
 import string # importa una cadena
 from palabras import palabras #se define como una variable palabras y se importa el archivo palabras
-from ahorcado_diagramas import vidas_diccionario_visual
+from ahorcado_diagramas import vidas_diccionario_visual# se importa archivo vias_diccionario_visual
 
 
 def obtener_palabra_válida(palabras):#para seleccionar al azar palabra y toma la palabra 
