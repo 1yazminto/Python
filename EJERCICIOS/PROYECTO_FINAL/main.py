@@ -18,7 +18,7 @@ def obtener_palabra_válida(palabras):#para seleccionar al azar palabra
     return palabra.upper()#palabra en mayusculas
 
 
-def ahorcado():# define una funcion el nombre
+def ahorcado():# define una funcion con el nombre del juego
 
     print("=======================================")#hace caja para hacer la bienvenida al juego para mostrarla 
     print(" ¡Bienvenido(a) al juego del Ahorcado! ")
@@ -34,7 +34,7 @@ def ahorcado():# define una funcion el nombre
 
     while len(letras_por_adivinar) > 0 and vidas > 0:
 
-        print(f"Te quedan {vidas} vidas y has usado estas letras: {' '.join(letras_adivinadas)}")
+        print(f"Te quedan {vidas} vidas y has usado estas letras: {' '.join(letras_adivinadas)}")# imprime las vidas que te quedan
 
       
         palabra_lista = [letra if letra in letras_adivinadas else '-' for letra in palabra]
