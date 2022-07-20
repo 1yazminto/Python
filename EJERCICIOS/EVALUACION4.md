@@ -5,17 +5,20 @@ Realizar un programa que inicialice una lista con 10 valores aleatorios (del 1 a
 y posteriormente muestre en pantalla cada elemento de la lista junto con su
 cuadrado y su cubo.
 Respuesta:
+```
 import random 
 lista_numeros = [] 
 for indice in range(1,11):
 lista_numeros.append(random.randint(1,10))
 for numero in lista_numeros:
  print(numero," ",numero ** 2," ",numero ** 3)
+```
 
 ### 4.2 Ejercicio 2 (1.2 puntos)
 Crea una lista e inicializarla con 5 cadenas de caracteres leídas por teclado. Copia
 los elementos de la lista en otra lista pero en orden inverso, y muestra sus
 elementos por la pantalla.
+```
 lista1 = []
 lista2 = []
 for indice in range (1,6):
@@ -24,12 +27,13 @@ for indice in range (1,6):
 for cadena in lista2:
   print(cadena)
   
-
+```
 
 ### 4.3 Ejercicio 3 (1.2 puntos)
 Se quiere realizar un programa que lea por teclado las 5 notas obtenidas por un
 alumno (comprendidas entre 0 y 10). A continuación debe mostrar todas las notas,
 la nota media, la nota más alta que ha sacado y la menor.
+```
 notas = []
 cont=1
 while cont<6:
@@ -45,7 +49,7 @@ print('---)
 print("Nota media: ",sum(notas)/len(notas))
 print("Nota max: ",max(notas))
 print("Nota min: ",min(notas))
-
+```
 
 ### 4.4 Ejercicio 4 (1.2 puntos)
 Codifica un programa en python que nos permita guardar los nombres de los
@@ -66,6 +70,7 @@ Crea una tupla con los meses del año, pide números al usuario, si el número e
 entre 1 y la longitud máxima de la tupla, muestra el contenido de esa posición sino
 muestra un mensaje de error. El programa termina cuando el usuario introduce un
 cero.
+```
 meses = ("Enero", "Febrero", "Marzo", "Abril", "Mayo", "Junio", "Julio", "Agosto", "Septiembre", "Octubre","Noviembre", "Diciembre")
 numero = int(input("coloca un numero: "))
 while (numero!=0):
@@ -77,5 +82,6 @@ while (numero!=0):
     numero = int(input("coloca  un numero: "))
 else:
  print('salir')
+ ```
 
 # TRATA DE RESOLVER Y AVANZAR LO MÁS POSIBLE EN LOS EJERICICIOS, EL MARTES HABILITO "AYUDAS" EN CADA EJERCICIO
