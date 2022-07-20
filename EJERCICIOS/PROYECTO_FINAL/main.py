@@ -4,7 +4,7 @@ Basado en el proyecto de: Kylie Ying (@kylieyying).
 """
 import random # importa una serie de numeros aleatorios
 import string # importa una cadena
-from palabras import palabras #se define como una variable palabras
+from palabras import palabras #se define como una variable palabras y se importa el archivo palabras
 from ahorcado_diagramas import vidas_diccionario_visual
 
 
@@ -68,4 +68,4 @@ def ahorcado():# define una funcion con el nombre del juego
         print(f'¡Excelente! ¡Adivinaste la palabra {palabra}!')#o el jugador ha ganado
 
 
-    ahorcado()
+    ahorcado()# se inicia el juego
