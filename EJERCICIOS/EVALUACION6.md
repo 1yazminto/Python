@@ -118,7 +118,7 @@ después de los 20 meses.
 
 Al finalizar los 20 meses pago en total:
 
-primer mes pago 10, segundo mes pago 20, tercer mes pago 30, cuarto mes pago 40, etc.
+'''primer mes pago 10, segundo mes pago 20, tercer mes pago 30, cuarto mes pago 40, etc.
 contador = 0
 mes = 0
 total = 0
@@ -130,4 +130,4 @@ while contador < 20:
   pagomensual = pagomensual * 2;
   pagos.append('en el mes  ',  (contador)+ 'pago', (pagomensual))
   print(pagos)
-  print('En total se pago: ', (total))
+  print('En total se pago: ', (total))'''
