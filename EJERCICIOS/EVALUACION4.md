@@ -66,7 +66,7 @@ programa nos dará un error.
 ```
 alumnos = {}
 notas=[]
-cantidad = int(input("Introduce la cantidad de alumnos que vamos a guardar:"))
+cantidad = int(input("digita cantidad de alumnos que vamos a guardar:"))
 for num in range(cantidad):
     alumno = input("Nombre del alumno:")
     while alumno in alumnos:
