@@ -65,20 +65,21 @@ cada uno de ellos. Nota: si se introduce el nombre de un alumno que ya existe el
 programa nos dará un error.
 ```
 alumnos = {}
-calificacion=[]
-cantidad = int(input("digita cantidad de alumnos que vamos a guardar:"))
+notas=[]
+cantidad = int(input("Introduce el numero de alumnos que vamos a guardar:"))
 for num in range(cantidad):
     alumno = input("Nombre del alumno:")
     while alumno in alumnos:
       print("Alumno ya existe.")
       alumno = input("Nombre del alumno:")
-    nota = int(input("Dame una calificacion del alumno (negativo para terminar):"))
-    while calificacion > 0:
-      notas.append(calificacion)
-      calificacion = int(input("Dame una calificacion del alumno (negativo para terminar):"))
+    nota = int(input("Digita una nota del alumno (negativo para terminar):"))
+    while nota > 0:
+      notas.append(nota)
+      nota = int(input("Digita una nota del alumno (negativo para terminar):"))
       alumnos[alumno] = notas.copy()
-    for alumno, calificacion in alumnos.items():
-      print("%s ha sacado de nota media %f" % (alumno,sum(calificacion)/len(calificacion)))
+    for alumno, notas in alumnos.items():
+      print("%s ha sacado de nota media %f" % (alumno,sum(notas)/len(notas)))
+
 ```
 
 ### 4.5 Ejercicio 5 (1.2 puntos)
