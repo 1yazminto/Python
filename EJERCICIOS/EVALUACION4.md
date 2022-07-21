@@ -63,6 +63,21 @@ nombre e irá pidiendo sus notas hasta que introduzcamos un número negativo. Al
 final el programa nos mostrará la lista de alumnos y la nota media obtenida por
 cada uno de ellos. Nota: si se introduce el nombre de un alumno que ya existe el
 programa nos dará un error.
+alumnos = {}
+notas=[]
+cantidad = int(input("Introduce la cantidad de alumnos que vamos a guardar:"))
+for num in range(cantidad):
+    alumno = input("Nombre del alumno:")
+    while alumno in alumnos:
+      print("Alumno ya existe.")
+      alumno = input("Nombre del alumno:")
+    nota = int(input("Dame una nota del alumno (negativo para terminar):"))
+    while nota > 0:
+      notas.append(nota)
+      nota = int(input("Dame una nota del alumno (negativo para terminar):"))
+      alumnos[alumno] = notas.copy()
+    for alumno, notas in alumnos.items():
+      print("%s ha sacado de nota media %f" % (alumno,sum(notas)/len(notas)))
 
 
 ### 4.5 Ejercicio 5 (1.2 puntos)
