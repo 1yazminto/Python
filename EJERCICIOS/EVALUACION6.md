@@ -50,6 +50,45 @@ opcion  5:
 Gracias, vuelva prontos
 
 Opción no válida, en caso de ingresar un número fuera de las opciones
+'''opcion=int(input('''Selecciona una opcion
+1 Literatura
+2 Cine
+3 Música
+4 Videojuegos
+5 Salir
+'''))
+if(opcion == 1):
+    print('''lecturas recomendables:
+ 
+    Esperándolo a Tito y otros cuentos de fútbol (Eduardo Sacheri)
+    El juego de Ender (Orson Scott Card)
+    El sueño de los héroes (Adolfo Bioy Casares)
+   ''')
+elif(opcion == 2):
+    print('''peliculas recomendables:
+
+    Matrix (1999)
+    El último samuray (2003)
+    Cars (2006)
+''')
+elif(opcion == 3):
+    print('''Discos recomendables:
+
+    Despedazado por mil partes (La Renga, 1996)
+    Búfalo (La Mississippi, 2008)
+    Gaia (Mago de Oz, 2003)
+''')
+elif(opcion == 4):
+    print('''Video juegos clasicos recomendables:
+
+    Videojuegos clásicos recomendables
+    Día del tentáculo (LucasArts, 1993)
+    Terminal Velocity (Terminal Reality/3D Realms, 1995)
+    Death Rally (Remedy/Apogee, 1996)
+''')
+elif(opcion == 5):
+    print('gracias, vuelva pronto')'''
+    
 
 ## Ejercicio 2 (1.5 puntos)
 Se pide por teclado un número y nos imprime los números primos que hay previos a este número.
